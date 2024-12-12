@@ -1,5 +1,6 @@
 namespace ApiConsalud
 {
+    using Utilidades;
     public class Program
     {
         public static void Main(string[] args)
@@ -30,6 +31,7 @@ namespace ApiConsalud
             app.MapControllers();
 
             app.Run();
+
         }
     }
 }
