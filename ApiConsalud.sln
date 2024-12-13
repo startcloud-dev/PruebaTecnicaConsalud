@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35605.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsalud", "ApiConsalud.csproj", "{1FE77F66-0D04-4BCB-8969-FB38687E681E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsalud.Test", "..\ApiConsalud.Test\ApiConsalud.Test.csproj", "{0F0259E5-19C5-4B3F-969F-4FB47B7FE3E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsalud.Test", "..\ApiConsalud.Test\ApiConsalud.Test.csproj", "{F61CB635-2710-EBC0-80D0-636AA6562C71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1FE77F66-0D04-4BCB-8969-FB38687E681E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE77F66-0D04-4BCB-8969-FB38687E681E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE77F66-0D04-4BCB-8969-FB38687E681E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F0259E5-19C5-4B3F-969F-4FB47B7FE3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F0259E5-19C5-4B3F-969F-4FB47B7FE3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F0259E5-19C5-4B3F-969F-4FB47B7FE3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F0259E5-19C5-4B3F-969F-4FB47B7FE3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61CB635-2710-EBC0-80D0-636AA6562C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61CB635-2710-EBC0-80D0-636AA6562C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61CB635-2710-EBC0-80D0-636AA6562C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61CB635-2710-EBC0-80D0-636AA6562C71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
