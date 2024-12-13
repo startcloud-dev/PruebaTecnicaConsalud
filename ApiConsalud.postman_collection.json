@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "ff544d22-6df7-430a-99c4-7b7acf434c84",
+		"name": "ApiConsalud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40406228"
+	},
+	"item": [
+		{
+			"name": "GetAllFacturaMontoTotal",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "1",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "b92b0bdf-da95-42a8-a2b1-780ca461aaf3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Facturas/GetAllFacturaMontoTotal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Facturas",
+						"GetAllFacturaMontoTotal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FacturaPorRutComprador",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "1",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "b92b0bdf-da95-42a8-a2b1-780ca461aaf3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Facturas/FacturaPorRutComprador/11488103/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Facturas",
+						"FacturaPorRutComprador",
+						"11488103",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FacturasAgrupadaPorComuna",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "1",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "b92b0bdf-da95-42a8-a2b1-780ca461aaf3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Facturas/FacturasAgrupadaPorComuna/78",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Facturas",
+						"FacturasAgrupadaPorComuna",
+						"78"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCompradorConMasCompras",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "1",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "b92b0bdf-da95-42a8-a2b1-780ca461aaf3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Facturas/GetCompradorConMasCompras",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Facturas",
+						"GetCompradorConMasCompras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetListaCompradorTotal",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "1",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "b92b0bdf-da95-42a8-a2b1-780ca461aaf3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Facturas/GetListaCompradorTotal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Facturas",
+						"GetListaCompradorTotal"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
